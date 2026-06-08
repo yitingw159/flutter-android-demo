@@ -50,6 +50,7 @@ class TeamAndroidHomePage extends StatelessWidget {
     '不能使用手机直接截图代替照片。',
     '必须用第二部手机拍摄，并拍到手持真机。',
     '照片需发到小组，并加入 GitHub README。',
+    '小组仓库地址：https://github.com/yitingw159/flutter-android-demo',
   ];
 
   @override

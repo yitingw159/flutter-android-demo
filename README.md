@@ -89,7 +89,7 @@ device
 | 组员 B | 廖春花 | 修改成员信息和分工 | `lib/main.dart` → `members` |
 | 组员 C | 岳沛珂 | 修改真机运行任务列表 | `lib/main.dart` → `androidTasks` |
 | 组员 D | 周伟佳 | 修改证据说明和 README 照片说明 | `lib/main.dart` → `evidenceNotes` |
-| 组员 E | **杨美媛** | 编写项目 README 文档 | `README.md` |
+| 组员 E | 杨美媛 | 编写项目 README 文档 | `README.md` |
 | 组员 F | 杨顺粉 | 完成真机运行测试与截图 | 真机运行 + `images/android-real-device.jpg` |
 
 ## 协作流程记录
@@ -99,11 +99,10 @@ device
 | 1 | 创建组长仓库 `yitingw159/flutter-android-demo` | 王怡婷 | ✅ 完成 |
 | 2 | 全体组员 Fork 仓库 | 全体组员 | ✅ 完成 |
 | 3 | 组员B 提交成员信息 PR #3 | 廖春花 | ✅ 已合并 |
-| 4 | 组员E 提交 README 文档 PR | 杨美媛 | 🔄 进行中 |
-| 5 | 其余组员提交各自代码 PR | 各组员 | ⏳ 待完成 |
-| 6 | 合并全部 PR | 王怡婷 | ⏳ 待完成 |
-| 7 | Android 真机运行测试 | 杨顺粉 | ⏳ 待完成 |
-| 8 | 提交真机运行照片 | 杨顺粉/周伟佳 | ⏳ 待完成 |
+| 4 | 组员E 提交 README 文档 PR | 杨美媛 | ✅ 已合并 |
+| 5 | 组员F 提交真机运行照片 PR | 杨顺粉 | 🔄 进行中 |
+| 6 | 其余组员提交各自代码 PR | 各组员 | ⏳ 待完成 |
+| 7 | 合并全部 PR | 王怡婷 | ⏳ 待完成 |
 
 ## Android 真机运行效果
 
@@ -130,7 +129,8 @@ images/android-real-device.jpg
 
 ### 本组真机运行效果
 
-<!-- TODO: 等待队友提交真机运行照片 -->
-<!-- ![Android 真机运行照片](images/android-real-device.jpg) -->
+![Android 真机运行照片 1](images/android-real-device.jpg)
 
-> 📷 照片由组员F（杨顺粉）负责拍摄并提交，由组员D（周伟佳）负责更新此处的图片引用。
+![Android 真机运行照片 2](images/android-real-device2.jpg)
+
+![Android 真机运行照片 3](images/android-real-device3.jpg)

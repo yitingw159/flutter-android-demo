@@ -4,7 +4,7 @@
 
 本案例只使用一种协作方式：**组长创建原始仓库，组员 Fork 后提交 Pull Request，组长审核并合并**。组员不直接 push 组长仓库的 `main` 分支，也不要求组长把组员加入 collaborator。
 
-本项目不是为了比拼复杂功能，而是一个“小组协作成果展示应用”。每名组员只需要修改一个区域，目标是留下 GitHub 协作痕迹，并让最终成果在真实 Android 手机上运行。
+本项目不是为了比拼复杂功能，而是一个"小组协作成果展示应用"。每名组员只需要修改一个区域，目标是留下 GitHub 协作痕迹，并让最终成果在真实 Android 手机上运行。
 
 ## 项目目标
 
@@ -80,15 +80,30 @@ device
 
 如果是 `unauthorized`，请解锁手机并点击允许 USB 调试。
 
-## 小组分工
+## 小组成员与分工
 
-| 角色 | 修改位置 | 任务 |
-| --- | --- | --- |
-| 组长 | GitHub 仓库 | 创建仓库、维护 main、审核 PR、组织真机运行 |
-| 组员 A | `lib/main.dart` | 修改 `projectTitle` 和 `projectSlogan` |
-| 组员 B | `lib/main.dart` | 修改 `members` 中的小组成员姓名和分工 |
-| 组员 C | `lib/main.dart` | 修改 `androidTasks` 中的真机运行任务 |
-| 组员 D | `lib/main.dart` 和 `README.md` | 修改 `evidenceNotes`，补充 README 真机照片说明 |
+| 角色 | 姓名 | 任务 | 负责区域 |
+| --- | --- | --- | --- |
+| 组长 | 王怡婷 | 创建仓库、维护 main、审核 PR、组织真机运行 | GitHub 仓库管理 |
+| 组员 A | 陈嘉玲 | 修改应用标题和项目口号 | `lib/main.dart` → `projectTitle` / `projectSlogan` |
+| 组员 B | 廖春花 | 修改成员信息和分工 | `lib/main.dart` → `members` |
+| 组员 C | 岳沛珂 | 修改真机运行任务列表 | `lib/main.dart` → `androidTasks` |
+| 组员 D | 周伟佳 | 修改证据说明和 README 照片说明 | `lib/main.dart` → `evidenceNotes` |
+| 组员 E | **杨美媛** | 编写项目 README 文档 | `README.md` |
+| 组员 F | 杨顺粉 | 完成真机运行测试与截图 | 真机运行 + `images/android-real-device.jpg` |
+
+## 协作流程记录
+
+| 步骤 | 操作 | 执行人 | 状态 |
+| --- | --- | --- | --- |
+| 1 | 创建组长仓库 `yitingw159/flutter-android-demo` | 王怡婷 | ✅ 完成 |
+| 2 | 全体组员 Fork 仓库 | 全体组员 | ✅ 完成 |
+| 3 | 组员B 提交成员信息 PR #3 | 廖春花 | ✅ 已合并 |
+| 4 | 组员E 提交 README 文档 PR | 杨美媛 | 🔄 进行中 |
+| 5 | 其余组员提交各自代码 PR | 各组员 | ⏳ 待完成 |
+| 6 | 合并全部 PR | 王怡婷 | ⏳ 待完成 |
+| 7 | Android 真机运行测试 | 杨顺粉 | ⏳ 待完成 |
+| 8 | 提交真机运行照片 | 杨顺粉/周伟佳 | ⏳ 待完成 |
 
 ## Android 真机运行效果
 
@@ -106,15 +121,16 @@ images/android-real-device.jpg
 
 照片必须满足：
 
-- 真实 Android 手机正在运行本 Flutter 应用。
-- 不能是 Web 截图。
-- 不能是手机直接截图。
-- 必须由第二部手机拍摄。
-- 必须拍到手持手机。
-- 不能包含明显隐私信息。
+- ✅ 真实 Android 手机正在运行本 Flutter 应用。
+- ❌ 不能是 Web 截图。
+- ❌ 不能是手机直接截图。
+- ✅ 必须由第二部手机拍摄。
+- ✅ 必须拍到手持手机。
+- ✅ 不能包含明显隐私信息。
 
-提交照片后，下面应显示本组真机运行效果：
+### 本组真机运行效果
 
-![Android 真机运行照片](images/android-real-device.jpg)
+<!-- TODO: 等待队友提交真机运行照片 -->
+<!-- ![Android 真机运行照片](images/android-real-device.jpg) -->
 
-如果这里暂时显示不出图片，说明还没有提交 `images/android-real-device.jpg`，或 README 路径需要检查。
+> 📷 照片由组员F（杨顺粉）负责拍摄并提交，由组员D（周伟佳）负责更新此处的图片引用。

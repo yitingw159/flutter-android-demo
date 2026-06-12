@@ -135,10 +135,19 @@ images/android-real-device4.jpg
 
 ### 本组真机运行效果
 
-![Android 真机运行照片 1](images/android-real-device1.jpg)
+**照片 1：证据要求说明**  
+![Android 真机运行照片 1](images/android-real-device1.jpg)  
+展示应用中"真机照片证据要求"部分，包含提交规范、仓库地址等信息。
+同时展示应用首页标题"小组 Android 真机运行展示"和小组成员与分工表格（组长及组员A、B）。
 
-![Android 真机运行照片 2](images/android-real-device2.jpg)
+**照片 2：小组信息展示**  
+![Android 真机运行照片 2](images/android-real-device2.jpg)  
+展示组员C、D、E、F的分工信息。
 
-![Android 真机运行照片 3](images/android-real-device3.jpg)
+**照片 3：组员信息与任务列表**  
+![Android 真机运行照片 3](images/android-real-device3.jpg)  
+展示"Android 真机运行任务"详细清单。
 
-![Android 真机运行照片 4](images/android-real-device4.jpg)
+**照片 4：运行步骤说明**  
+![Android 真机运行照片 4](images/android-real-device4.jpg)  
+展示完整的 Android 真机运行步骤说明，包括环境配置、依赖下载、设备连接等操作指南。

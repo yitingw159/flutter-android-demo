@@ -90,7 +90,7 @@ device
 | 组员 C | 岳沛珂 | 修改真机运行任务列表 | `lib/main.dart` → `androidTasks` |
 | 组员 D | 周伟佳 | 修改证据说明和 README 照片说明 | `lib/main.dart` → `evidenceNotes` |
 | 组员 E | 杨美媛 | 编写项目 README 文档 | `README.md` |
-| 组员 F | 杨顺粉 | 完成真机运行测试与截图 | 真机运行 + `images/android-real-device.jpg` |
+| 组员 F | 杨顺粉 | 完成真机运行测试与截图 | 真机运行 + `images/android-real-device1.jpg` 等 4 张 |
 
 ## 协作流程记录
 
@@ -109,13 +109,19 @@ device
 完成真机运行后，把照片保存为：
 
 ```text
-images/android-real-device.jpg
+images/android-real-device1.jpg
+images/android-real-device2.jpg
+images/android-real-device3.jpg
+images/android-real-device4.jpg
 ```
 
 然后在 README 中引用：
 
 ```markdown
-![Android 真机运行照片](images/android-real-device.jpg)
+![Android 真机运行照片 1](images/android-real-device1.jpg)
+![Android 真机运行照片 2](images/android-real-device2.jpg)
+![Android 真机运行照片 3](images/android-real-device3.jpg)
+![Android 真机运行照片 4](images/android-real-device4.jpg)
 ```
 
 照片必须满足：
@@ -129,8 +135,10 @@ images/android-real-device.jpg
 
 ### 本组真机运行效果
 
-![Android 真机运行照片 1](images/android-real-device.jpg)
+![Android 真机运行照片 1](images/android-real-device1.jpg)
 
 ![Android 真机运行照片 2](images/android-real-device2.jpg)
 
 ![Android 真机运行照片 3](images/android-real-device3.jpg)
+
+![Android 真机运行照片 4](images/android-real-device4.jpg)
